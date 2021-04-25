@@ -1,0 +1,54 @@
+#about-container {
+    height: 100%;
+}
+
+#about-container-inner {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+    height: 100%;
+    width: 80%;
+    margin: 0px auto;
+    /* ^ sets the container to both sides */
+}
+
+.top-nav {
+    background-color: #222;
+    border-color: #080808;
+    border-radius: 4px;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1em;
+}
+
+.main-nav {
+    border: 1px solid #e5e5e5;
+}
+.welcome-text {
+    color: white;
+}
+
+.top-nav-item {
+    list-style-type: none;
+}
+
+.top-nav-item li {
+    display: inline;
+}
+
+.top-nav-item li a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.logo-text {
+    font-size: 1.75em !important;
+    /* !important overwrites the previous changes the text would undergo from other styles. Use sparingly */
+    font-weight: bold;
+}
+
+.white {
+    background-color: white !important;
+}

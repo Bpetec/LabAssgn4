@@ -1,1 +1,141 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.iconColor {
+    color: white;
+}
+
+.whiteText {
+    color: white;
+}
+
+.noDec {
+    text-decoration: none;
+}
+
+/* home page css */
+.cursive {
+    /* font-family: Brush Script MT, Brush Script Std, cursive; */
+    font-family: 'Pacifico', cursive;
+    font-size: 1.75em;
+}
+
+.sans {
+    font-family: 'Poppins', sans-serif;
+}
+
+.trn {
+    background: transparent !important;
+    z-index: 999;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.circle {
+    border-radius: 50%;
+}
+.drop-shadow {
+    text-shadow: 1px 2px 3px #000;
+}
+#home-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.carousel-holder {
+    height: 10px;
+}
+.r1 {
+    background-color: rgb(43, 43, 43);
+    background-image: url('assets/img/david.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.r1-inner {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+/* .home-main-nav {
+    padding-top: 25px;
+    width: 100%;
+    background: none;
+    border: 0;
+} */
+
+.home-main-nav > ul {
+    list-style-type: none;
+    z-index: 999;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.home-main-nav > ul >li {
+display: inline;
+font-size: 1.75em;
+}
+.home-main-nav > ul >li > a {
+    color: white;
+    text-decoration: none;
+    padding: 15px .5em;
+    text-shadow: 1px 2px 3px #000;
+}
+.home-main-nav > ul > li:first-child {
+    font-family: 'Cookie', cursive;
+}
+.home-main-nav > ul > li:first-child a:hover {
+    background-color: transparent;
+    color: teal;
+}
+.home-main-nav > ul > li > a:hover {
+    background-color: white;
+    color: red;
+}
+.gallery-description {
+    padding-top: 15%;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    padding-bottom: 40px;
+   /*  another way to do the padding with 20% on top, auto sides, and 40px on bottom: padding: 20% auto 40px;
+   Can also add a fourth parameter to make it go clockwise (top, right, bottom, left) */
+}
+
+.r2 {
+    display: grid;
+    padding: 2em 0em;
+    grid-column-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 80%;
+    margin: 0px auto;
+}
+.r2 > div {
+    text-align: center;
+}
+.left-align {
+    text-align: left;
+}
+
+.center {
+    justify-items: center;
+    text-align: center;
+}
+
+/* end home page css */
