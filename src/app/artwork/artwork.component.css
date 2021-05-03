@@ -1,6 +1,8 @@
 #about-container {
     height: 100%;
     overflow: auto;
+    background-color: #ffdab966;
+
   }
   
   #about-container-inner {
@@ -118,6 +120,9 @@
     font-size: .95em;
   }
   
+  .rounded {
+    border-radius: 7px;
+  }
   .bordered {
     border: 1px solid #CCC;
     border-radius: 7px;
@@ -131,6 +136,7 @@
     border: 1px solid #428bca;
     min-height: 250px;
     margin-bottom: 20px;
+    background-color: white;
   }
   
   .light-blue {
